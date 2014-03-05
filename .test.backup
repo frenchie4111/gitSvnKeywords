@@ -1,0 +1,9 @@
+// File: $Id$
+
+#include <stdio>
+
+int main() {
+	printf("Some code")
+}
+
+// $Log$ 
