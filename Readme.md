@@ -6,7 +6,7 @@ Replaces the svn tags of $Log$ and $Id$ with git commit history
 Sample:
 
 Input:
-`
+```
 // File: $Id$
 
 #include <stdio>
@@ -16,10 +16,10 @@ int main() {
 }
 
 // $Log$ 
-`
+```
 
 Output:
-`
+```
 // File: $Id: a6b09a3 Code complete. Now ignores hidden files $
 
 #include <stdio>
@@ -47,4 +47,4 @@ int main() {
 // 
 //     Added Test File
 // 
-`
+```
